@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+db.sqlite3
+db.sqlite3-journal
+
+# If you use PostgreSQL and keep local backups:
+*.dump
+*.backup
+
+# Environment variables
+.env
+.env.*
+
+# Django migrations (optional to ignore)
+# Uncomment the next line if you want to exclude migration files (not recommended for team projects)
+# */migrations/*.py
+# */migrations/*.pyc
+
+# Static and media (if locally built)
+staticfiles/
+static/
+media/
+
+# VSCode settings
+.vscode/
+
+# MyPy / Pyright / Pyre
+.mypy_cache/
+.pyre/
+
+# Pytest
+.cache/
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+
+# Test database
+test_*.sqlite3
+
+# pip tools
+pip-log.txt
+pip-delete-this-directory.txt
+
+# MacOS / Linux / Windows system files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+.idea/

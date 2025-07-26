@@ -1,0 +1,40 @@
+{% load menu_tags %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Menu</title>
+    <style>
+        /* Простая стилизация для наглядности */
+        .menu-item {
+            list-style: none;
+        }
+
+        .menu-item.active > a {
+            font-weight: bold;
+            color: red;
+        }
+
+        .menu-item.expanded > a {
+            /* Может быть, добавить стрелочку */
+        }
+
+        ul {
+            padding-left: 20px; /* Отступ для вложенных уровней */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>My Page</h1>
+
+    <h2>Main Menu</h2>
+    {% draw_menu 'main_menu' %}
+
+    <h2>Another Menu</h2>
+    {% draw_menu 'another_menu' %}
+
+    <p>Some content here...</p>
+
+</body>
+</html>
